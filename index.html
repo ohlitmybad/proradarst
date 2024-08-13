@@ -18,9 +18,13 @@
 
 body {
     background-color: white;
+}
 
-    zoom: 0.89;
-  }
+@supports not (-moz-appearance: none) {
+    body {
+        zoom: 0.89;
+    }
+}
 
 
 body, html {
