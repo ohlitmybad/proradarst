@@ -1523,18 +1523,7 @@ async function takeScreenshot() {
             element.textContent = value;
           }
         });
-  
-        // Update placeholders for elements with data-i18n-placeholder attribute
-        document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
-          const keys = element.getAttribute('data-i18n-placeholder').split('.');
-          let value = translations;
-          for (const key of keys) {
-            value = value[key];
-          }
-          if (value) {
-            element.placeholder = value;
-          }
-        });
+
   
       });
   }
