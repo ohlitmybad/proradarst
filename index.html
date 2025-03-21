@@ -1151,7 +1151,7 @@ fetch(`locales/${language}.json`)
       translateElement(element, translations);
     });
     
-    document.querySelector('meta[name="language"]').setAttribute('content', language);
+
     
     if (!window.translationObserver) {
       window.translationObserver = new MutationObserver(function(mutations) {
