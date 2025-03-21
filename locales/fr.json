@@ -1,0 +1,29 @@
+{
+  "search": {
+    "placeholder2": "Cherchez un buteur..."
+  },
+  "table": {
+    "percentiles": "Centiles",
+    "age": "Âge",
+    "passrec": "Passes reçues",
+    "aerial": "Aérien%",
+    "xG": "Buts non-penalty",
+    "xAssist": "Buts attendus",
+    "progPasses": "Passes vers la surface",
+    "duel": "xA",
+    "attactions": "Actions att.",
+    "minutes": "Minutes jouées"
+  },
+  "radar": {
+    "xa": "xA",
+    "passesToBox": "Passes vers la surface",
+    "xg": "xG",
+    "npg": "Buts NP",
+    "aerial": "Aérien%",
+    "passesRec": "Passes reçues",
+    "attActions": "Actions att"
+  },
+  "similar": {
+    "to": "Données similaires à"
+  }
+} 
