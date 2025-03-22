@@ -25,5 +25,15 @@
   },
   "similar": {
     "to": "Données similaires à"
-  }
+  },
+"season_all": "Toutes saisons", 
+"season_current": "Cette saison",
+"league_all": "Monde",
+"league_top7": "7 grands champ",
+"league_outside": "Hors top 7", 
+"age_all": "Âge",
+"age_u30": "U30",
+"age_u25": "U25",
+"age_u23": "U23",
+"age_u21": "U21"
 } 
