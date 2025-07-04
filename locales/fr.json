@@ -5,23 +5,23 @@
   "table": {
     "percentiles": "Centiles",
     "age": "Âge",
-    "passrec": "Passes reçues",
-    "aerial": "% Duel aérien",
-    "xG": "Buts hors pen",
-    "xAssist": "xG",
-    "progPasses": "Passes vers surface",
-    "duel": "xA",
-    "attactions": "Actions off",
-    "minutes": "Minutes jouées"
+    "npg": "Buts HP",
+    "npxg": "npxG",
+    "conversion": "% Conv buts",
+    "xa": "xA",
+    "offduels": "Duels off gagnés",
+    "touches": "Touches surface",
+    "aerial": "% Aérien",
+    "minutes": "Minutes"
   },
   "radar": {
     "xa": "xA",
-    "passesToBox": "Passes Surf",
-    "xg": "xG",
-    "npg": "Buts",
+    "touches": "Touches surf",
     "aerial": "% Aérien",
-    "passesRec": "Passes Rec",
-    "attActions": "Actions Off"
+    "conversion": "% Conversion",
+    "npxg": "npxG",
+    "npg": "Buts HP",
+    "offduels": "Duels off"
   },
   "similar": {
     "to": "Données similaires à"
