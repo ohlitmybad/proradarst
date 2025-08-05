@@ -1,4 +1,4 @@
-{
+e{
   "search": {
     "placeholder2": "Forvet adı girin..."
   },
@@ -9,7 +9,7 @@
     "npxg": "npxG",
     "conversion": "Gole çevirme%",
     "xa": "xA",
-    "offduels": "Kazanılan hücum düelloları",
+    "offduels": "Hücum düello",
     "touches": "RCS topla",
     "aerial": "Hava%",
     "minutes": "Dakika"
@@ -21,7 +21,7 @@
     "conversion": "Gole çevirme%",
     "npxg": "npxG",
     "npg": "NPG",
-    "offduels": "Hücum düelloları"
+    "offduels": "Hücum düello"
   },
   "similar": {
     "to": "Benzer veri"
