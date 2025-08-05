@@ -1,0 +1,39 @@
+{
+  "search": {
+    "placeholder2": "Forvet adı girin..."
+  },
+  "table": {
+    "percentiles": "Yüzdelikler",
+    "age": "Yaş",
+    "npg": "NPG",
+    "npxg": "npxG",
+    "conversion": "Gole çevirme%",
+    "xa": "xA",
+    "offduels": "Kazanılan hücum düelloları",
+    "touches": "RCS topla buluşma",
+    "aerial": "Hava%",
+    "minutes": "Dakika"
+  },
+  "radar": {
+    "xa": "xA",
+    "touches": "RCS topla buluşma",
+    "aerial": "Hava%",
+    "conversion": "Gole çevirme%",
+    "npxg": "npxG",
+    "npg": "NPG",
+    "offduels": "Hücum düelloları"
+  },
+  "similar": {
+    "to": "Benzer veri"
+  },
+"season_all": "Tüm Sezonlar", 
+"season_current": "Mevcut Sezon",
+"league_all": "Tüm Ligler",
+"league_top7": "En İyi 7 Lig",
+"league_outside": "En İyi 7 Dışında", 
+"age_all": "Tüm Yaşlar",
+"age_u30": "30 Yaş Altı",
+"age_u25": "25 Yaş Altı",
+"age_u23": "23 Yaş Altı",
+"age_u21": "21 Yaş Altı"
+} 
