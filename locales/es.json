@@ -1,0 +1,39 @@
+{
+  "search": {
+    "placeholder2": "Introduce nombre de delantero..."
+  },
+  "table": {
+    "percentiles": "Percentiles",
+    "age": "Edad",
+    "npg": "NPG",
+    "npxg": "npxG",
+    "conversion": "Conv goles%",
+    "xa": "xA",
+    "offduels": "Duelos of ganados",
+    "touches": "Toques en área",
+    "aerial": "Aéreo%",
+    "minutes": "Minutos"
+  },
+  "radar": {
+    "xa": "xA",
+    "touches": "Toques en área",
+    "aerial": "Aéreo%",
+    "conversion": "Conversión%",
+    "npxg": "npxG",
+    "npg": "NPG",
+    "offduels": "Duelos of"
+  },
+  "similar": {
+    "to": "Datos similares a"
+  },
+"season_all": "Todas las Temporadas", 
+"season_current": "Temporada Actual",
+"league_all": "Todas las Ligas",
+"league_top7": "7 Principales Ligas",
+"league_outside": "Fuera de las 7 Principales", 
+"age_all": "Todas las Edades",
+"age_u30": "Menores de 30",
+"age_u25": "Menores de 25",
+"age_u23": "Menores de 23",
+"age_u21": "Menores de 21"
+} 

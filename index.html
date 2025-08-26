@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>	
+
+    <meta name="viewport" content="user-scalable=no">
+	<meta name="robots" content="noindex">
+
+
+	<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+
+
+
+	
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="/radarpro.css">
+</head>
+<body>
+<script type="text/javascript">document.body.style.visibility="hidden";</script><div id="SFctr" data-org="31002" data-mfl="64c215764c0b6076026762a3"><div style="clear:both"></div></div><script type="text/javascript" src="https://cdn.membershipworks.com/mfl.js"></script>
+
+  <div class="container">
+      <div class="search-container">
+        <div class="search-controls">
+          <input type="text" id="searchInput1" class="search-bar" data-i18n="search.placeholder2" placeholder="Enter name of striker..." />
+          <button id="searchButton1">+</button>
+        </div>
+        <div id="matchingNames"></div>
+      </div>
+
+    <div class="chart-wrapper">
+
+      <div id="resultsTable"></div>
+      
+      <div class="radar-container">
+        
+  <svg class="radar"><g><g class="axisWrapper">
+  
+    <g class="radar_label">
+      <text class="label" data-type="xA" data-idx="0" data-i18n="radar.xa" transform="translate(-26.43 -222.88) scale(1.34) rotate(-1.7)">xA</text>
+  </g>
+  
+  <g class="radar_label">
+      <text class="label" data-type="touches" data-idx="6" data-i18n="radar.touches" transform="matrix(0.728, -1.252, 1.252, 0.728, -224.24, -68.35) scale(0.917) rotate(4.5)">Touches in box</text>
+  </g>
+  
+  <g class="radar_label">
+      <text class="label" data-type="Aerial" data-idx="5" data-i18n="radar.aerial" transform="matrix(-0.553, -1.354, 1.354, -0.553, -207.2, 87.96) scale(0.917) rotate(5.87)">Aerial%</text>
+  </g>
+  
+  <g class="radar_label">
+      <text class="label" data-type="conversion" data-idx="4" data-i18n="radar.conversion" transform="translate(-156.93 188.34) scale(1.34) rotate(24)">Conversion%</text>
+  </g>
+  
+  <g class="radar_label">
+      <text class="label" data-type="npxG" data-idx="3" data-i18n="radar.npxg" transform="translate(93.88 221.25) scale(1.34) rotate(-30)">npxG</text>
+  </g>
+  
+  <g class="radar_label">
+      <text class="label" data-type="npg" data-idx="2" data-i18n="radar.npg" transform="translate(224.25 14.9) scale(1.34) rotate(99.91)">NPG</text>
+  </g>
+  
+  <g class="radar_label">
+      <text class="label" data-type="offduels" data-idx="1" data-i18n="radar.offduels" transform="translate(135.12 -183.29) scale(1.34) rotate(48.99)">Off duels</text>
+  </g>
+  
+  
+
+<circle class="blackCircle" r="214.2" style="fill:none; stroke:#D3D3D3; stroke-width:1;"></circle>
+<circle class="gridCircle" r="214.2" style="fill: rgb(16, 135, 188); fill-opacity: 0.03;"></circle>
+<circle class="gridCircle" r="171.36" style="fill: rgb(16, 135, 188); fill-opacity: 0.03;"></circle>
+<circle class="gridCircle" r="128.52" style="fill: rgb(16, 135, 188); fill-opacity: 0.03;"></circle>
+<circle class="gridCircle" r="85.68" style="fill: rgb(16, 135, 188); fill-opacity: 0.03;"></circle>
+<circle class="gridCircle" r="42.84" style="fill: rgb(16, 135, 188); fill-opacity: 0.03;"></circle></g>
+
+
+
+
+<line x1="0" y1="0" x2="10.49" y2="213.6" stroke="#D3D3D3" stroke-width="1" transform="translate(-10.49, -213.6)"></line>
+<line x1="0" y1="0" x2="-159.81" y2="142.2" stroke="#D3D3D3" stroke-width="1" transform="translate(159.81, -142.2)"></line>
+<line x1="0" y1="0" x2="-210.79" y2="-36.31" stroke="#D3D3D3" stroke-width="1" transform="translate(210.79, 36.31)"></line>
+<line x1="0" y1="0" x2="-103.58" y2="-187.73" stroke="#D3D3D3" stroke-width="1" transform="translate(103.58, 187.73)"></line>
+<line x1="0" y1="0" x2="82.11" y2="-197.6" stroke="#D3D3D3" stroke-width="1" transform="translate(-82.11, 197.6)"></line>
+<line x1="1" y1="-2" x2="205.63" y2="-59.3" stroke="#D3D3D3" stroke-width="1" transform="translate(-205.63, 59.3)"></line>
+<line x1="0" y1="0" x2="174.15" y2="123.75" stroke="#D3D3D3" stroke-width="1" transform="translate(-174.15, -123.75)"></line>
+
+  <g class="radarWrapper"></g>
+  </g></g>
+        </svg>
+      </div>
+      <div id="insertHere"></div>
+
+      
+      <hr style="margin: 20px 0; border: 0; border-top: 1px solid var(--border-color); opacity: 0.5;">
+      
+      <div class="toggle-controls">
+        <div class="toggle-container">
+          <label class="toggle-label"></label>
+          <label class="toggle-checkbox">
+            <input type="checkbox" id="toggleButton" onclick="toggleFilling()" unchecked>
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+        <div class="position-switcher-container">
+          <a href="https://datamb.football/proradargk/" target="_self" rel="noopener noreferrer" class="position-link">
+            <span>GK</span>
+        </a>
+          <a href="https://datamb.football/proradarcb/" target="_self" rel="noopener noreferrer" class="position-link">
+              <span>CB</span>
+          </a>
+          <a href="https://datamb.football/proradarfb/" target="_self" rel="noopener noreferrer" class="position-link">
+              <span>FB</span>
+          </a>
+          <a href="https://datamb.football/proradarcm/" target="_self" rel="noopener noreferrer" class="position-link">
+              <span>CM</span>
+          </a>
+          <a href="https://datamb.football/proradarfw/" target="_self" rel="noopener noreferrer" class="position-link">
+              <span>FW</span>
+          </a>
+          <span class="position-link active" style="user-select: none;">
+            <span>ST</span>
+        </span>
+      
+    </div>
+        
+        <button onclick="takeScreenshot()" class="btn btn-outline btn-icon"><iconify-icon icon="ion:camera" style="color: var(--text-color); font-size: 18px;"></iconify-icon></button>
+      </div>
+      
+    </div>
+  </div>
+      
+  
+  <div class="dark-mode-toggle" onclick="toggleDarkMode()">
+    <div class="toggle-icon"></div>
+  </div>
+
+  <script src="proradarst.js"></script>
+	  
+<script src="/tradproradar.js"></script>
+
+
+</body>
+</html>
