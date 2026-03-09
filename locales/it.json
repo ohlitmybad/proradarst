@@ -1,0 +1,39 @@
+{
+  "search": {
+    "placeholder2": "Inserisci nome dell'attaccante..."
+  },
+  "table": {
+    "percentiles": "Percentili",
+    "age": "Età",
+    "npg": "Gol no rig.",
+    "npxg": "npxG",
+    "conversion": "Conversione%",
+    "xa": "xA",
+    "offduels": "Duelli off. vinti",
+    "touches": "Tocchi in area",
+    "aerial": "Aerei%",
+    "minutes": "Minuti"
+  },
+  "radar": {
+    "xa": "xA",
+    "touches": "Tocchi area",
+    "aerial": "Aerei%",
+    "conversion": "Conversione%",
+    "npxg": "npxG",
+    "npg": "NPG",
+    "offduels": "Duelli off."
+  },
+  "similar": {
+    "to": "Dati simili a"
+  },
+  "season_all": "Tutte le Stagioni",
+  "season_current": "Stagione Corrente",
+  "league_all": "Tutti i Campionati",
+  "league_top7": "Top 7 Leghe",
+  "league_outside": "Fuori Top 7",
+  "age_all": "Tutte le Età",
+  "age_u30": "Sotto i 30",
+  "age_u25": "Sotto i 25",
+  "age_u23": "Sotto i 23",
+  "age_u21": "Sotto i 21"
+}
