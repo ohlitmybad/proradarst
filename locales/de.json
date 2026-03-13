@@ -1,0 +1,39 @@
+{
+  "search": {
+    "placeholder2": "Name des Stürmers eingeben..."
+  },
+  "table": {
+    "percentiles": "Perzentile",
+    "age": "Alter",
+    "npg": "Tore o.E.",
+    "npxg": "npxG",
+    "conversion": "Torquote%",
+    "xa": "xA",
+    "offduels": "Off. Duelle gew.",
+    "touches": "Kontakte Strafraum",
+    "aerial": "Kopfball%",
+    "minutes": "Minuten"
+  },
+  "radar": {
+    "xa": "xA",
+    "touches": "Kontakte Strafraum",
+    "aerial": "Kopfball%",
+    "conversion": "Torquote%",
+    "npxg": "npxG",
+    "npg": "Tore o.E.",
+    "offduels": "Off. Duelle"
+  },
+  "similar": {
+    "to": "Ähnliche Daten wie"
+  },
+  "season_all": "Alle Saisons",
+  "season_current": "Aktuelle Saison",
+  "league_all": "Alle Ligen",
+  "league_top7": "Top 7 Ligen",
+  "league_outside": "Außerhalb Top 7",
+  "age_all": "Alle Altersklassen",
+  "age_u30": "Unter 30",
+  "age_u25": "Unter 25",
+  "age_u23": "Unter 23",
+  "age_u21": "Unter 21"
+}

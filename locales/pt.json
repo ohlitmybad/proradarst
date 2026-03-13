@@ -1,0 +1,39 @@
+{
+  "search": {
+    "placeholder2": "Inserir nome do avançado..."
+  },
+  "table": {
+    "percentiles": "Percentis",
+    "age": "Idade",
+    "npg": "NPG",
+    "npxg": "npxG",
+    "conversion": "Conversão%",
+    "xa": "xA",
+    "offduels": "Duelos of. ganhos",
+    "touches": "Toques na área",
+    "aerial": "Aéreo%",
+    "minutes": "Minutos"
+  },
+  "radar": {
+    "xa": "xA",
+    "touches": "Toques área",
+    "aerial": "Aéreo%",
+    "conversion": "Conversão%",
+    "npxg": "npxG",
+    "npg": "NPG",
+    "offduels": "Duelos of."
+  },
+  "similar": {
+    "to": "Dados semelhantes a"
+  },
+  "season_all": "Todas as Épocas",
+  "season_current": "Época Atual",
+  "league_all": "Todas as Ligas",
+  "league_top7": "Top 7 Ligas",
+  "league_outside": "Fora do Top 7",
+  "age_all": "Todas as Idades",
+  "age_u30": "Menos de 30",
+  "age_u25": "Menos de 25",
+  "age_u23": "Menos de 23",
+  "age_u21": "Menos de 21"
+}
